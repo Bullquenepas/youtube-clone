@@ -2,5 +2,6 @@ from django.urls import path
 from replies import views
 
 urlpatterns = [
-    path('<int:comment_id>/', {...})#Get,POST
-] 
+    path('', views.reply_list), 
+    
+]
